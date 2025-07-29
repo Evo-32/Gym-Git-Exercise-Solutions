@@ -1,4 +1,4 @@
-
+//history on Bundle 1
    2 git init
    3 git status
    4 git branch -m main
@@ -38,3 +38,75 @@
   38 git commit -m'abort merge'
   39 git push
   40 git history
+
+  2 git stash list
+   3 git stash pop
+   4 git stash pop
+   5 git stash list
+   6 git merge --abort...
+   7 git reset --hard HEAD...
+   8 git stash list
+   9 git stash clear...
+  10 git stash list
+  11 new-Item home.html
+  12 code home.html
+  13 git add .
+  14 git stash
+  15 new-Item about.html
+  16 code about.html
+  17 git add .
+  18 git stash
+  19 new-Item team.html
+  20 code team.html
+  21 git add .
+  22 git stash
+  23 git stash list
+  24 git stash pop 'stash@{1}'
+  25 git stash list
+  26 git stash pop 'stash@{0}'
+  15 new-Item about.html
+  16 code about.html
+  17 git add .
+  18 git stash
+  19 new-Item team.html
+  20 code team.html
+  21 git add .
+  22 git stash
+  23 git stash list
+  24 git stash pop 'stash@{1}'
+  25 git stash list
+  26 git stash pop 'stash@{0}'
+  18 git stash
+  19 new-Item team.html
+  20 code team.html
+  21 git add .
+  22 git stash
+  23 git stash list
+  24 git stash pop 'stash@{1}'
+  25 git stash list
+  26 git stash pop 'stash@{0}'
+  27 git commit -m 'restore team.html'
+  28 git add .
+  23 git stash list
+  24 git stash pop 'stash@{1}'
+  25 git stash list
+  26 git stash pop 'stash@{0}'
+  27 git commit -m 'restore team.html'
+  28 git add .
+  29 git commit -m 'restore team.html'
+  26 git stash pop 'stash@{0}'
+  27 git commit -m 'restore team.html'
+  28 git add .
+  29 git commit -m 'restore team.html'
+  27 git commit -m 'restore team.html'
+  28 git add .
+  29 git commit -m 'restore team.html'
+  29 git commit -m 'restore team.html'
+  30 git push
+  31 git stash list
+  30 git push
+  31 git stash list
+  32 git stash pop 'stash@{0}'
+  33 git reset --hard HEAD
+  33 git reset --hard HEAD
+  34 git ls-files
