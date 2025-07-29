@@ -110,3 +110,10 @@
   33 git reset --hard HEAD
   33 git reset --hard HEAD
   34 git ls-files
+
+   git add .
+   3 git commit -m 'Buddle 2 exercise 1'
+   4 git push origin main
+   5 git pull --rebase origin main...
+   6 git push origin main
+   7 git checkout main...
