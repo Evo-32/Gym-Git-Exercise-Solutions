@@ -1,4 +1,4 @@
-//history on Bundle 1
+// Bundle 1 Exercises 1
    2 git init
    3 git status
    4 git branch -m main
@@ -38,6 +38,8 @@
   38 git commit -m'abort merge'
   39 git push
   40 git history
+
+  //Bundle 1 Exercises 2
 
   2 git stash list
    3 git stash pop
@@ -111,6 +113,7 @@
   33 git reset --hard HEAD
   34 git ls-files
 
+//Bundle 2 Exercises 1
    git add .
    3 git commit -m 'Buddle 2 exercise 1'
    4 git push origin main
@@ -118,6 +121,8 @@
    6 git push origin main
    7 git checkout main...
 
+
+// Bundle 2 Exercises 2
   2 git branch
    3 git status
    4 git fetch origin
