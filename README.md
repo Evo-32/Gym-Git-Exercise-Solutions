@@ -117,3 +117,15 @@
    5 git pull --rebase origin main...
    6 git push origin main
    7 git checkout main...
+
+  2 git branch
+   3 git status
+   4 git fetch origin
+   5 git merge origin/main
+   6 git add .
+   7 git commit -m "Resolve merge conflict between main and ft/service-redesign"
+   8 git push origin ft/service-redesign...
+   9 history
+  10 git status
+  11 git switch main
+  12 git status
