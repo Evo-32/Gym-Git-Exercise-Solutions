@@ -203,4 +203,41 @@
   45 git diff ft/home-page-redesign
   46 git merge main
   47 git pull origin main
-  
+
+  //Bundle 4
+   48 history
+  49 git add .
+  50 git commit -m 'update read me'
+  51 git push origin main
+  52 git status
+  53 git remote add git-copy https://github.com/Evo-32/-New-Gym-Git-Exer... 
+  54 git add .
+  55 git commit -m ' change in the home page'
+  56 git push origin main
+  57 git push git-copy main
+  58 git remote add git-copy https://github.com/Evo-32/-New-Gym-Git-Exer... 
+  59 git push git-copy main
+  60 git remote add https://github.com/Evo-32/-New-Gym-Git-Exercise-Solu... 
+  61 git push git-copy main
+  62 git remote remove git-copy...
+  63 git remote add git-copy https://github.com/Evo-32/New-Gym-Git-Exerc... 
+  64 git push git-copy main...
+  65 git remote remove git-copy...
+  66 git remote add git-copy https://github.com/Evo-32/-New-Gym-Git-Exer... 
+  67 git push git-copy main...
+  68 git checkout ft/footer
+  69 git branch
+  70 git checkout -b ft/footer
+  71 git add .
+  72 git commit -m 'change the home page css src'
+  73 git add .
+  74 git commit -m 'change the home page js  src'
+  75 git push
+  76 git push --set-upstream origin ft/footer
+  77 git checkout main
+  78 git branch ft/squashing
+  79 git switch  ft/squashing
+  80 git merge --squash ft/footer
+  81 git commit -m 'footer changes squashing'
+  82 git push origin ft/squashing
+  83 git switch main
