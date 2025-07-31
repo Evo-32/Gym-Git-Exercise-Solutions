@@ -157,3 +157,50 @@
   20 hitory
 
   //Bundle 3 Exercises 2
+2 ls...
+   3 Get-ChildItem...
+   4 git checkout ft/team-page...
+   5 git revert 4c63c17541f2bd044e9de341d0d806e7c52cbf15...
+   6 git push origin ft/team-page...
+   7 git checkout ft/team-page...
+   8 git revert 4c63c17541f2bd044e9de341d0d806e7c52cbf15...
+   9 git push origin ft/team-page...
+  10 git status...
+  11 git checkout ft/faq-page
+  12 get-ChilItem
+  13 git status...
+  14 git lof -all -- faq.html
+  15 git log -all -- faq.html
+  16 git log --all -- faq.html
+  17 git branch
+  18 git push origin ft/faq-page...
+  19 git checkout main...
+  20 hitory
+  21 history
+  22 git status
+  23 git add .
+  24 git commit -m 'update read me'
+  25 git push origin main
+  26 git checkout main
+  27 git switch ft/faq-page
+  28 git branch ft/home-page-redesign
+  29 git switch main
+  30 git add .
+  31 git commit -m 'change on main'
+  32 git push origin main
+  33 git switch ft/home-page-redesign
+  34 git rebase --continue
+  35 git fetch origin
+  36 git rebase origin/main
+  37 new-Item home.html
+  38 code home.html
+  39 git add .
+  40 git commit -m 'home page'
+  41 git push origin ft/home-page-redesign
+  42 git status
+  43 git main
+  44 git switch main
+  45 git diff ft/home-page-redesign
+  46 git merge main
+  47 git pull origin main
+  
